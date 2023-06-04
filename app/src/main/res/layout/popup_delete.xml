@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_delete"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:layout_marginTop="35dp"
+        app:cardBackgroundColor="#E6101010"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="מחיקת משימה!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#F4C03C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!--<ImageView
+                android:id="@+id/delete_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/delete_icon_trash" />-->
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progress_delete"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="313dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:indeterminate="true"
+        android:indeterminateTint="#89EA18"
+        android:progress="2"
+        android:progressTint="#72E323"
+        android:visibility="invisible" />
+</LinearLayout>

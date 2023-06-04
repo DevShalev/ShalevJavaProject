@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679081424043",
+    "project_id": "shalevproject-87676",
+    "storage_bucket": "shalevproject-87676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679081424043:android:033225cac33b1c987073ee",
+        "android_client_info": {
+          "package_name": "com.example.shalevjavaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679081424043-0si5pkt84f8bnqkpi1v126tjnmimhkjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN-1Vz9LnyZBuwOIoJG0YCMGukU1xu7vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679081424043-0si5pkt84f8bnqkpi1v126tjnmimhkjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

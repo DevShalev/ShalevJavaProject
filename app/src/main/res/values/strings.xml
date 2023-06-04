@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ניהול משימות.</string>
+    <string name="title_text">רשימת משימות.</string>
+    <string name="header_card_text_task">כל המשימות שלך במקום אחד.</string>
+    <string name="get_started_text">לחץ עלי כדי להתחיל</string>
+    <string name="email_hint">אימייל</string>
+    <string name="password_hint">סיסמה</string>
+    <string name="login_btn_text">התחברות</string>
+    <string name="or_text">במידה ואין לך חשבון אנא הרשם..</string>
+    <string name="create_acc_text">הרשם</string>
+    <string name="username_hint">כינוי</string>
+    <string name="post_title">כותרת של המשימה..</string>
+    <string name="post_task_details_et">פרטי המשימה..</string>
+    <string name="menu_title">Add Tasks</string>
+    <string name="signout">Signout</string>
+    <string name="no_tasks_hint">אין משימות , אנא הוסף משימה על ידי לחיצה על \"+"\ שלמעלה.</string>
+</resources>

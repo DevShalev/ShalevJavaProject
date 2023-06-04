@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bggradient"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/task_row_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:padding="3dp"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="שלו"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <!--<ImageButton
+            android:id="@+id/task_row_share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Transparent"
+            android:src="@android:drawable/ic_menu_share" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Transparent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/task_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="350dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/to_do_post" />
+
+        <TextView
+            android:id="@+id/task_title_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="כותרת המשימה.."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/task_details_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+            android:text="פרטי המשימה.."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/task_timestamp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="לפני כמה זמן נוצר.."
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:letterSpacing="0.20"
+            android:text="ערוך"
+            android:textColor="#F4C03C"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            app:icon="@drawable/edit_btn"
+            app:iconGravity="textStart" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
